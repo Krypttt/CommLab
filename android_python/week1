@@ -1,0 +1,20 @@
+how do android handle widget objects
+
+1. how do android handles widget objects
+the listening --> hang a listener to catch for the user interaction through out the whole process
+
+2. R.id.button1 class int ( The id of the button, it's the argument of function call findViewById which searches the object in xml
+R --> public final class
+https://www.quora.com/What-does-R-id-mean-in-java
+https://developer.android.com/reference/android/R.id#button1
+java --> R.id
+kotlin --> id 
+3. Android Manifest.xml
+
+action android:name="android.intent.action.MAIN" --> entry point
+category android:name="android.intent.category.LAUNCHER" --> gives additional infomation about the action to execute
+category launcher --> appear in the launcher as a top-level application
+intent --> https://developer.android.com/reference/android/content/Intent.html
+       --> https://stackoverflow.com/questions/25219551/what-is-the-meaning-of-android-intent-action-main
+
+4. code...

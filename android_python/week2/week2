@@ -1,0 +1,14 @@
+1. how to import 
+import tkinter
+   how to create the main frame
+top = tkinter.Tk()
+   how to create other stuff
+frames --> frame = tkinter.frame(top) # create the frame on top of the main frame
+var = tkinter.StringVar() # assign a variable to be showed on the frame
+Label = tkinter.Label(frame, textvariable, ...).grid(...) # define a label object in the frame
+Button = tkinter.Button(frame, text, size, command).grid(...)
+frame.pack()
+mainframe.mainloop()
+2. paste the code
+ 
+3. feedback
